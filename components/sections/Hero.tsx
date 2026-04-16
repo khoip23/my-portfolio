@@ -23,12 +23,22 @@ export default function Hero() {
             {t.hero.description}
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="theme-surface theme-text rounded-full px-7 py-3 text-sm shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-0.5 dark:hover:border-blue-400/40 hover:border-slate-300 dark:hover:bg-slate-900/80 hover:bg-white">
+            <a
+              className="theme-surface theme-text rounded-full px-7 py-3 text-sm shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-0.5 dark:hover:border-blue-400/40 hover:border-slate-300 dark:hover:bg-slate-900/80 hover:bg-white"
+              href="https://github.com/khoip23"
+              target="_blank"
+              rel="noreferrer"
+            >
               {t.hero.primaryCta}
-            </button>
-            <button className="theme-surface theme-text rounded-full px-7 py-3 text-sm transition-all duration-300 hover:-translate-y-0.5 dark:hover:border-blue-400/40 hover:border-slate-300 dark:hover:bg-slate-900/60 hover:bg-white">
+            </a>
+            <a
+              className="theme-surface theme-text rounded-full px-7 py-3 text-sm transition-all duration-300 hover:-translate-y-0.5 dark:hover:border-blue-400/40 hover:border-slate-300 dark:hover:bg-slate-900/60 hover:bg-white"
+              href="/resume/PHAM%20HONG%20KHOI%20SOFTWARE%20ENGINEER%20Backend%20developer.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               {t.hero.secondaryCta}
-            </button>
+            </a>
           </div>
         </div>
 
