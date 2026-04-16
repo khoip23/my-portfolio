@@ -31,7 +31,7 @@ export const translations = {
       profileRole: "Fresher Backend Engineer",
       currentFocusLabel: "Current focus",
       currentFocusValue:
-        "Building .NET backend systems with microservices, APIs, and AI integration",
+        "Building backend systems with microservices, APIs, and AI integration",
       locationLabel: "Location",
       locationValue: "Ho Chi Minh City",
       emailLabel: "Email",
@@ -56,7 +56,7 @@ export const translations = {
       headline:
         "I design backend platforms that make product delivery faster, safer, and easier to scale over time.",
       intro:
-        "Over the last 5+ years, I have worked across LMS modernization, AI-enabled products, and cloud-native backend systems. My approach combines architecture clarity, disciplined execution, and operational feedback loops so teams can ship continuously without accumulating hidden risk. I care about outcomes that are visible to both users and business stakeholders: latency, reliability, release confidence, and development velocity.",
+        "As a fresher backend developer, I have built projects across clinic management systems, e-commerce platforms, and AI-integrated applications. My focus is on writing clean, maintainable code, designing reliable RESTful APIs, and applying structured architecture principles such as Clean Architecture. I am passionate about building systems that deliver good performance, secure user access, and a smooth development workflow while continuously improving my technical skills through real-world projects.",
       pillars: [
         {
           title: "Positioning",
@@ -240,7 +240,7 @@ export const translations = {
       profileRole: "Kỹ sư Backend mới tốt nghiệp",
       currentFocusLabel: "Tập trung hiện tại",
       currentFocusValue:
-        "Xây dựng hệ thống backend .NET với kiến trúc microservices, API và tích hợp AI",
+        "Xây dựng hệ thống backend với kiến trúc microservices, API và tích hợp AI",
       locationLabel: "Địa điểm",
       locationValue: "TP. Hồ Chí Minh",
       emailLabel: "Email",
@@ -265,7 +265,7 @@ export const translations = {
       headline:
         "Tôi thiết kế nền tảng backend giúp đội ngũ ra mắt sản phẩm nhanh hơn, an toàn hơn và dễ mở rộng hơn theo thời gian.",
       intro:
-        "Trong hơn 5 năm qua, tôi đã tham gia hiện đại hóa LMS, phát triển sản phẩm tích hợp AI và xây dựng hệ thống backend cloud-native. Cách làm của tôi kết hợp kiến trúc rõ ràng, thực thi kỷ luật và vòng phản hồi vận hành để đội ngũ có thể triển khai liên tục mà không tích lũy rủi ro tiềm ẩn. Tôi quan tâm đến các kết quả có thể đo lường đối với người dùng và doanh nghiệp: độ trễ, độ tin cậy, sự tự tin khi phát hành và tốc độ phát triển.",
+        "Là một Fresher Backend Developer, tôi đã tham gia xây dựng các dự án về hệ thống quản lý phòng khám, nền tảng thương mại điện tử và ứng dụng tích hợp AI. Tôi tập trung vào việc phát triển mã nguồn sạch, dễ bảo trì, thiết kế RESTful API ổn định và áp dụng các nguyên tắc kiến trúc phần mềm như Clean Architecture. Tôi luôn hướng đến việc xây dựng các hệ thống có hiệu năng cao, bảo mật tốt và quy trình phát triển mượt mà, đồng thời không ngừng hoàn thiện kỹ năng thông qua các dự án thực tế.",
       pillars: [
         {
           title: "Định vị",

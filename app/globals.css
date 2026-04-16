@@ -1,26 +1,140 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #0b1120;
+  --color-foreground: #f8fafc;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: #0b1120;
+  color: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.theme-shell {
+  @apply min-h-screen transition-colors duration-300;
+}
+
+.theme-transition {
+  @apply transition-colors duration-300;
+}
+
+.theme-surface,
+.theme-surface-strong,
+.theme-card,
+.theme-card-muted,
+.theme-divider,
+.theme-border,
+.theme-border-strong,
+.theme-bg,
+.theme-text,
+.theme-muted,
+.theme-subtle {
+  @apply transition-colors duration-300;
+}
+
+.theme-bg {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.theme-text {
+  @apply text-slate-900;
+}
+
+.theme-muted {
+  @apply text-slate-600;
+}
+
+.theme-subtle {
+  @apply text-slate-500;
+}
+
+.theme-surface {
+  @apply border border-slate-200 bg-white/90;
+}
+
+.theme-surface-strong {
+  @apply bg-white;
+}
+
+.theme-card {
+  @apply border border-slate-200 bg-white;
+}
+
+.theme-card-muted {
+  @apply border border-slate-200 bg-slate-100;
+}
+
+.theme-divider {
+  @apply border-slate-200;
+}
+
+.theme-border {
+  @apply border-slate-300;
+}
+
+.theme-border-strong {
+  @apply border-slate-400;
+}
+
+.theme-accent {
+  @apply text-blue-600;
+}
+
+.theme-accent-strong {
+  @apply text-blue-700;
+}
+
+.dark .theme-bg {
+  @apply bg-[#0b1120] text-slate-100;
+}
+
+.dark .theme-text {
+  @apply text-slate-100;
+}
+
+.dark .theme-muted {
+  @apply text-slate-300;
+}
+
+.dark .theme-subtle {
+  @apply text-slate-400;
+}
+
+.dark .theme-surface {
+  @apply border border-blue-500/20 bg-slate-950/70;
+}
+
+.dark .theme-surface-strong {
+  @apply bg-slate-900/80;
+}
+
+.dark .theme-card {
+  @apply border border-blue-500/20 bg-slate-950/70;
+}
+
+.dark .theme-card-muted {
+  @apply border border-blue-500/15 bg-[#0b1222];
+}
+
+.dark .theme-divider {
+  @apply border-white/10;
+}
+
+.dark .theme-border {
+  @apply border-blue-500/20;
+}
+
+.dark .theme-border-strong {
+  @apply border-blue-400/40;
+}
+
+.dark .theme-accent {
+  @apply text-blue-200/80;
+}
+
+.dark .theme-accent-strong {
+  @apply text-blue-400/80;
 }

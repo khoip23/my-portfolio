@@ -11,12 +11,12 @@ export default function Stats() {
         {t.stats.map((stat) => (
           <div
             key={stat.subtitle}
-            className="rounded-2xl border border-white/10 bg-slate-950/70 p-6 shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-white/25"
+            className="theme-card rounded-2xl p-6 shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 dark:hover:border-blue-400/40 hover:border-slate-300"
           >
-            <p className="text-3xl font-semibold text-white sm:text-4xl">
+            <p className="theme-text text-3xl font-semibold sm:text-4xl">
               {stat.title}
             </p>
-            <p className="mt-3 text-sm text-slate-400 sm:text-base">
+            <p className="theme-subtle mt-3 text-sm sm:text-base">
               {stat.subtitle}
             </p>
           </div>

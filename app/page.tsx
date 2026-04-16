@@ -6,7 +6,7 @@ import Stats from "../components/sections/Stats";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="theme-shell theme-bg">
       <Header />
       <main>
         <Hero />
